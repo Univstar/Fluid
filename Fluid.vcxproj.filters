@@ -13,5 +13,39 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="头文件\Geometry Structures">
+      <UniqueIdentifier>{5fe0bfe0-04c7-4e95-8426-ff3c67d193b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Geometry Structures">
+      <UniqueIdentifier>{cded9096-7bc3-4ae1-872c-a27fa93ef468}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Common Utilities">
+      <UniqueIdentifier>{ea554069-68ec-4528-83ef-8eef86001670}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\geometry\MacGrid_2D.h">
+      <Filter>头文件\Geometry Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="source\common\constants.h">
+      <Filter>头文件\Common Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="source\geometry\FaceField_2D.h">
+      <Filter>头文件\Geometry Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="source\geometry\Field_2D.h">
+      <Filter>头文件\Geometry Structures</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\geometry\MacGrid_2D.cpp">
+      <Filter>源文件\Geometry Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geometry\FaceField_2D.cpp">
+      <Filter>源文件\Geometry Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geometry\Field_2D.cpp">
+      <Filter>源文件\Geometry Structures</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

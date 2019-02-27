@@ -123,6 +123,7 @@
     <ClInclude Include="source\geometry\MacGrid_2D.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="source\driver\main.cpp" />
     <ClCompile Include="source\geometry\FaceField_2D.cpp" />
     <ClCompile Include="source\geometry\Field_2D.cpp" />
     <ClCompile Include="source\geometry\MacGrid_2D.cpp" />

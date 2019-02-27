@@ -22,6 +22,12 @@
     <Filter Include="头文件\Common Utilities">
       <UniqueIdentifier>{ea554069-68ec-4528-83ef-8eef86001670}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\Driver">
+      <UniqueIdentifier>{cd076497-d606-462d-8162-0e642830eaae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Driver">
+      <UniqueIdentifier>{bd66209a-6995-4749-b115-e11626a7ebad}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="source\geometry\MacGrid_2D.h">
@@ -46,6 +52,9 @@
     </ClCompile>
     <ClCompile Include="source\geometry\Field_2D.cpp">
       <Filter>源文件\Geometry Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="source\driver\main.cpp">
+      <Filter>源文件\Driver</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
